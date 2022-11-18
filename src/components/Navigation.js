@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <div className="bg-gray-800 navbar">
       <div className="h-16 px-8 flex items-center navbar-header">
-        <p className="text-white font-bold">Student Result Login App</p>
+        <p className="text-white font-bold">College Result CRUD App</p>
       </div>
     </div>
   );
