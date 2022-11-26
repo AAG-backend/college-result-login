@@ -22,7 +22,8 @@ This college result login application is designed and implemented as an educatio
     
 ## Link to deployed site
 
-  • [CLOUDFLARE](https://college-result-login-app.pages.dev)
+  • [CLOUDFLARE](https://college-result-login-app.pages.dev/)
+  • [Localhost](http://localhost:3001/)
 
 ### Installation instructions
 
