@@ -56,7 +56,7 @@ const AddStudentResult = () => {
   return (
     <div className="add-result-table">
       <div className="result-table-row">
-        <div className="result-table-row">
+        <div className="add-result-table-header">
             <h1>Register Student Results</h1>
         </div>
         <div className="result-data">

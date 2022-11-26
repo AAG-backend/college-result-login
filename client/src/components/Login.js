@@ -34,7 +34,7 @@ const Login = () => {
 
   return (
     <>
-      <Card className="card">
+      <Card>
       <Card.Body id="card-body">
           <h2 className="text-center mb-4">Login Page</h2>
           {error && <Alert variant='danger'>{error}</Alert>}

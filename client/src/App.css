@@ -1,8 +1,8 @@
 .navbar{
   background-color: grey;
-  display: flex;
   height: 50px;
-}
+  min-width: 100%;
+} 
 
 .navbar-header{
   color: white;
@@ -10,18 +10,9 @@
   font-stretch: expanded;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding-top: 8px;
-  margin-left: 25rem;
+  margin-left: 28rem;
 }
 
-.logout-btn{
-  border-radius: 5px;
-  background-color: slateblue;
-  color: white;
-  padding-right: 10px;
-  margin-left: 37rem;
-  margin-top: 1.5rem;
-  cursor: pointer;
-}
 .add-result-table{
   display: flex;
   max-width: 2xl;
@@ -36,8 +27,13 @@
   font-weight: lighter;
   text-decoration: wavy;
   font-size: large;
+  margin-left: 13rem;
 }
 
+.add-result-table-header{
+  padding-bottom: 5px;
+  margin-left: -2rem;
+}
 
 .result-data{
   display: flex;
@@ -52,8 +48,7 @@
 }
 .label{
   font-size: small;
-  font-weight: normal;
-  
+  font-weight: normal;  
 }
 
 .input{
@@ -123,17 +118,6 @@
   margin-bottom: 0.25rem;
 }
 
-/* .list-student-result {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: solid black thin;
-  margin-top: 1rem;
-} */
-/* .table {
-  min-width: 800px;
-  color: white;
-} */
 .thead{
   background-color: grey;
   color: white;
@@ -148,14 +132,7 @@
   color: brown;
   background-color: aqua;
 }
-/*
-.table-body{
-  border: black thin;
-}
 
-.tbody-row{
-  border: black thin;
-}  */
 .todo-data{
   display: flex;
   flex-direction: row;
@@ -183,32 +160,24 @@
   cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#card-body{
+ 
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  width: auto;
+  height: auto;
+  
 }
-.card {
-  margin-top: 5rem;
-  margin-left: 45rem;
-  box-shadow: rgb(92, 205, 98);
-  border: solid rgb(220, 210, 210);
-  width: 300px;
-  height: 300px;
 
-
-}
 h2{
   font-size: 24px;
   font-stretch: semi-expanded;
   align-content: center;
   margin-top: 5rem;
-}
-
-#card-body{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 #email{
@@ -234,29 +203,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.card {
-  margin-top: 5rem;
-  margin-left: 45rem;
-  box-shadow: rgb(92, 205, 98);
-  border: solid rgb(220, 210, 210);
-  width: 300px;
-  height: 300px;
-}
-
-h2{
-  font-size: 24px;
-  font-stretch: semi-expanded;
-  align-content: center;
-  margin-top: 5rem;
-}
-
-#card-body{
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  align-items: center;
-  
-}
 
 #email{
   display: flex;
@@ -274,12 +220,28 @@ h2{
 
  } 
  .signin-btn{
-  background: burlywood;
+  background-color: grey;
+  color: white;
+  font-weight: 600;
+  font-size: medium;
   margin-top: 0.25rem;
   width: 100px;
   height: 30px;
   margin-left: 5rem;
   margin-top: 2rem;
 } 
+
+.logout-btn{
+  background-color: grey;
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+  padding-right: 10px;
+  cursor: pointer;
+  width: 95px;
+  height: 28px;
+  margin-left: 6rem;
+  margin-top: -9rem;
+}
 
 
