@@ -22,7 +22,7 @@ This college result login application is designed and implemented as an educatio
 
 ### Link to deployed site
 
-    . [Link to deploy site](https://college-result-login-app.pages.dev/)
+    • [CLOUDFLARE](https://college-result-login-app.pages.dev/)
 
 ### Installation instructions
 
