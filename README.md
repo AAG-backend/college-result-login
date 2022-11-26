@@ -22,11 +22,9 @@ This college result login application is designed and implemented as an educatio
 
 ### Link to deployed site
 
-    [Link]
+    . [Link to deploy site](https://college-result-login-app.pages.dev/)
 
 ### Installation instructions
 
-    • npm install
-    . To start a new Docker container for the MySQL Community Server, use this command:
-        docker run --name=mysql1 --restart on-failure -d mysql/mysql-server:8.0
+    • npm install 
     • npm start
