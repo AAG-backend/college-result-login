@@ -13,9 +13,9 @@ This college result login application is designed and implemented as an educatio
 
     • Java
     • Spring Boot framework
-    • MySQL server
+    • MySQL Database
     . React
-    . JWT
+    . JWT 
     . Postman
     • React-Router
     • Bootstrap
