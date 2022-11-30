@@ -17,6 +17,7 @@ const Navigation = () => {
               >
               Log Out</button>
     </div>
+    
     </div>
   );
 }
