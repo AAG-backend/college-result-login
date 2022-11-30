@@ -15,10 +15,7 @@ function App() {
       <Navigation />
       <Routes>
           <Route path="/" element={<Login />} />
-          { <Route path="/home" element={ <Home />} /> }
-          {/* <Route index element={ <StudentResultList />} /> */}
-          {/* <Route path="/" element={ <StudentResultList />} /> */}
-          {/* <Route path="/studentResultList" element={<StudentResultList />} /> */}
+          <Route path="/home" element={ <Home />} /> 
           <Route path="/addStudentResult" element={ <AddStudentResult />} />
           <Route path="/editStudentResult/:id" element={ <UpdateStudentResult />} />
       </Routes>
