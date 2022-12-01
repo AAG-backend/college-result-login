@@ -24,6 +24,10 @@ This college result login application is designed and implemented as an educatio
 ## Link to deployed site
 
   • [Localhost](http://localhost:3001/)
+  
+## Link to youtube vedio
+
+  • [Youtube link](https://www.youtube.com/watch?v=zRFvcTCGMm4)
 
 ### Installation instructions
 
